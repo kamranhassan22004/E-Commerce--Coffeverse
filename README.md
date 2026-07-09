@@ -22,12 +22,6 @@ A premium coffee ecommerce project built with separate frontend and backend fold
 
 ## Important design note
 
-The frontend is now rebuilt around the uploaded Stitch reference screens:
-
-- `home_coffeeverse/screen.png`
-- `shop_all_coffee_coffeeverse/screen.png`
-- `midnight_arabica_coffeeverse/screen.png`
-- `your_cart_coffeeverse/screen.png`
 
 The assets are included locally inside:
 
@@ -80,8 +74,8 @@ Open `backend/.env` and add your MongoDB connection string:
 ```env
 MONGO_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/coffeeverse
 JWT_SECRET=super_secret_change_this
-CLIENT_URL=http://localhost:3000
-PORT=5000
+CLIENT_URL=
+PORT=
 ```
 
 Then seed demo data:
@@ -119,14 +113,7 @@ Frontend runs on:
 http://localhost:3000
 ```
 
-## Admin login
 
-After running `npm run seed`, login with:
-
-```txt
-Email: admin@brewverse.com
-Password: Admin@12345
-```
 
 Admin panel:
 
