@@ -1,0 +1,34 @@
+HOW TO RUN COFFEEVERSE
+
+1. Extract the ZIP file.
+2. Open the extracted coffee-ecommerce-next-express folder in VS Code.
+
+BACKEND:
+cd backend
+npm install
+cp .env.example .env
+
+Edit backend/.env and add your MongoDB URI.
+
+Then run:
+npm run seed
+npm run dev
+
+FRONTEND:
+Open a second terminal:
+cd frontend
+npm install
+cp .env.local.example .env.local
+npm run dev
+
+Open browser:
+http://localhost:3000
+
+Admin login:
+Email: admin@brewverse.com
+Password: Admin@12345
+
+Important:
+- Backend must keep running on port 5000.
+- Frontend must keep running on port 3000.
+- Main local images are inside frontend/public/coffee.
