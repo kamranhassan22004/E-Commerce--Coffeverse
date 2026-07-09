@@ -20,16 +20,7 @@ A premium coffee ecommerce project built with separate frontend and backend fold
 - MongoDB + Mongoose backend
 - Seed data with CoffeeVerse products
 
-## Important design note
 
-
-The assets are included locally inside:
-
-```txt
-frontend/public/coffee/
-```
-
-So the main coffee/product images do not depend on Unsplash or random internet images.
 
 ## Folder structure
 
